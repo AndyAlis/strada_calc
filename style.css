@@ -7,12 +7,23 @@
    
 }
 
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
+    background-color: white;
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 100vh;
-   
+    height: 65vh;
+    width: 1143px;
+    border-radius: 103px;
+
   }
 
 .calc {
