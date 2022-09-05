@@ -1,0 +1,31 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-size: 24px;
+   /* border: 2px solid red; */
+   
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+   
+  }
+
+.calc {
+    text-align: center;        
+}
+
+.number {
+    width: 95px;
+    height: 33px;
+    
+}
+
+.w39h33 {
+    width: 39px;
+    height: 33px;
+}
