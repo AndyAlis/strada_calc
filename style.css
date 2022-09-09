@@ -40,3 +40,18 @@ body {
     width: 39px;
     height: 33px;
 }
+
+.results {
+    /* border: 2px solid red; */
+    max-width: 60%;
+    margin: 1rem auto;
+}
+
+.results__span {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.results__span:hover {
+    cursor: no-drop;
+}

@@ -10,16 +10,17 @@
 <body>
     <div class="container">
         <div class="calc">
-            <input type="number" name="firstNumber" size="95px" class="number">
+            <input type="number" name="firstNumber" id="firstNumber" size="95px" class="number">
             <select name="operations" id="operations" class="w39h33">
                 <option value="+">+</option>
                 <option value="-">-</option>
                 <option value="*">*</option>
                 <option value="/">/</option>
             </select>
-            <input type="number" name="secondNumber" class="number">
+            <input type="number" name="secondNumber" id="secondNumber" class="number">
             <input type="button" value="=" name="equal" class="btn w39h33" id="btn">
-            <span id="result">result</span>
+            <span id="result"></span>
+            <div class="results"></div>
 
         </div>
     </div>
